@@ -6,6 +6,9 @@
   "module": "./dist/esm/TweetButton.js",
   "types": "./dist/esm/TweetButton.d.ts",
   "homepage": "https://github.com/codesweetly/thank-you-tweet-button-001#readme",
+  "files": [
+    "./dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/codesweetly/thank-you-tweet-button-001.git"
