@@ -1,10 +1,11 @@
 {
   "name": "thank-you-tweet-button-001",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy-to-use tweet button for saying thank you to @oluwatobiss.",
   "main": "./dist/cjs/TweetButton.js",
   "module": "./dist/esm/TweetButton.js",
   "types": "./dist/esm/TweetButton.d.ts",
+  "homepage": "https://github.com/codesweetly/thank-you-tweet-button-001#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/codesweetly/thank-you-tweet-button-001.git"
@@ -16,9 +17,15 @@
     "copy-files": "cp ./src/index.css dist/",
     "test": "jest --config jest.config.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tweet",
+    "twitter",
+    "button",
+    "thank you",
+    "thanks"
+  ],
+  "author": "Oluwatobi Sofela <contact@codesweetly.com> (https://www.codesweetly.com)",
+  "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
