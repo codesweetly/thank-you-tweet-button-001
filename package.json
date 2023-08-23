@@ -2,7 +2,8 @@
   "name": "thank-you-tweet-button-001",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/cjs/TweetButton.js",
+  "module": "./dist/esm/TweetButton.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/codesweetly/thank-you-tweet-button-001.git"
