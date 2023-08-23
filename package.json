@@ -8,6 +8,10 @@
     "url": "https://github.com/codesweetly/thank-you-tweet-button-001.git"
   },
   "scripts": {
+    "build": "rm -r dist && npm run build:esm && npm run build:cjs && npm run copy-files",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "copy-files": "cp ./src/index.css dist/",
     "test": "jest --config jest.config.js"
   },
   "keywords": [],
