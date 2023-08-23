@@ -1,4 +1,4 @@
-> **Info**
+> **Note**
 >
 > This package is a project in the [Creating NPM Package book](https://amzn.to/3n5pMHt).
 
