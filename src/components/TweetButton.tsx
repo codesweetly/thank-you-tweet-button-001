@@ -3,6 +3,7 @@ import "../index.css";
 
 interface TweetButtonPropsType {
   number?: number;
+  bestNPMPackage: string;
   rating: number;
 }
 
@@ -21,11 +22,13 @@ export default function TweetButton(props: TweetButtonPropsType) {
     props.number && props.number > 1 ? props.number : "an"
   }+NPM+${
     props.number && props.number > 1 ? "packages" : "package"
-  }.%0A%0AI'm+giving+it+a+${props.rating}-star+rating!+${generateStarIcons(
+  }.%0A%0AMy+best+one+is:+${props.bestNPMPackage}%0A%0AI'm+giving+it+a+${
+    props.rating
+  }-star+rating!+${generateStarIcons(
     props.rating
   )}+%0A%0ACreating%20NPM%20Package:%20React%20TypeScript%20Guide%0A%0Ahttps%3A%2F%2Famzn.to/3qxnEdF`;
 
-  return props.rating ? (
+  return props.rating && props.bestNPMPackage ? (
     <section className="tweet-btn-container">
       <a className="tweet-button" href={tweetURL} target="_blank">
         Send a thank you tweet
@@ -48,7 +51,8 @@ export default function TweetButton(props: TweetButtonPropsType) {
           padding: "15px 20px",
         }}
       >
-        ⓘ Error: Props 'rating' is missing in 'TweetButtonPropsType'.
+        ⓘ Error: One or more required props are missing in
+        'TweetButtonPropsType'.
       </p>
     </div>
   );

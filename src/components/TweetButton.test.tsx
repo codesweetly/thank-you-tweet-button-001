@@ -4,5 +4,5 @@ import { test } from "@jest/globals";
 import TweetButton from "./TweetButton";
 
 test("tweet button renders correctly", () => {
-  render(<TweetButton rating={35} />);
+  render(<TweetButton rating={37} bestNPMPackage="React YouTube Playlist" />);
 });
