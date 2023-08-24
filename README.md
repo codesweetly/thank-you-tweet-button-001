@@ -14,7 +14,7 @@ This button auto-fills your tweet pop-up modal with a nicely worded thank you me
 
 ## Live Demo
 
-https://codesweetly.com/
+https://test-app-for-thank-you-tweet-button-001.vercel.app
 
 ## Installation
 
