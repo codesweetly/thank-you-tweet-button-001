@@ -22,7 +22,7 @@ export default function TweetButton(props: TweetButtonPropsType) {
     props.number && props.number > 1 ? props.number : "an"
   }+NPM+${
     props.number && props.number > 1 ? "packages" : "package"
-  }.%0A%0AMy+best+one+is:+${props.bestNPMPackage}%0A%0AI'm+giving+it+a+${
+  }.%0A%0AMy+Favorite:+${props.bestNPMPackage}%0A%0ABook's+Rating:+${
     props.rating
   }-star+rating!+${generateStarIcons(
     props.rating
