@@ -12,6 +12,7 @@ This button auto-fills your tweet pop-up modal with a nicely worded thank you me
 
 - A button that posts a thank you message
 - Display total published NPM packages
+- Add a rating
 
 ## Live Demo
 

@@ -33,6 +33,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
+    "@release-it/conventional-changelog": "^7.0.0",
     "@testing-library/react": "^14.0.0",
     "@types/react": "^18.2.21",
     "husky": "^8.0.3",
