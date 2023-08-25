@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.3](https://github.com/codesweetly/thank-you-tweet-button-001/compare/v3.0.2...v3.0.3) (2023-08-25)
+
+
+### 🏠 Chores
+
+* add bugs field ([71094d5](https://github.com/codesweetly/thank-you-tweet-button-001/commit/71094d52606e2b00b9a95cebf87d1622ab87dc59))
+* use demo website as homepage ([34c2395](https://github.com/codesweetly/thank-you-tweet-button-001/commit/34c23956f2367d017e82aa7162a4809c5c0169ad))
+
 ## [3.0.2](https://github.com/codesweetly/thank-you-tweet-button-001/compare/v3.0.1...v3.0.2) (2023-08-24)
 
 
