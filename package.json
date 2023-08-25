@@ -13,6 +13,10 @@
     "type": "git",
     "url": "https://github.com/codesweetly/thank-you-tweet-button-001.git"
   },
+  "bugs": {
+    "url": "https://github.com/codesweetly/thank-you-tweet-button-001/issues",
+    "email": "contact@codesweetly.com"
+  },
   "scripts": {
     "build": "rm -r dist && npm run build:esm && npm run build:cjs && npm run copy-files",
     "build:esm": "tsc",
