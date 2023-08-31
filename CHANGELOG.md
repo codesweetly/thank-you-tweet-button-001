@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.4](https://github.com/codesweetly/thank-you-tweet-button-001/compare/v3.0.3...v3.0.4) (2023-08-31)
+
+
+### 📝 Documentation
+
+* update book's url ([51a749d](https://github.com/codesweetly/thank-you-tweet-button-001/commit/51a749d6e5177d84fa5a5810b6477df441879a64))
+* update book's url ([9cd4f18](https://github.com/codesweetly/thank-you-tweet-button-001/commit/9cd4f186952a28ce19d077714a82c38ff303d390))
+
 ## [3.0.3](https://github.com/codesweetly/thank-you-tweet-button-001/compare/v3.0.2...v3.0.3) (2023-08-25)
 
 
