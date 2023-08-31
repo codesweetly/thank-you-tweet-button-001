@@ -1,6 +1,6 @@
 > **Note**
 >
-> This package is a project in the [Creating NPM Package book](https://amzn.to/3n5pMHt).
+> This package is a project in the [Creating NPM Package book](https://amzn.to/3R1M0XU).
 
 # Thank You Tweet Button 001
 
@@ -25,19 +25,19 @@ This section shows how to install the Thank You Tweet Button 001 package.
 ### Using npm
 
 ```
-npm install @codesweetly/react-youtube-playlist
+npm install thank-you-tweet-button-001
 ```
 
 ### Using yarn
 
 ```
-yarn add @codesweetly/react-youtube-playlist
+yarn add thank-you-tweet-button-001
 ```
 
 ### Using pnpm
 
 ```
-pnpm add @codesweetly/react-youtube-playlist
+pnpm add thank-you-tweet-button-001
 ```
 
 ## Usage
