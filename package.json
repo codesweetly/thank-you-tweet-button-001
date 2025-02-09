@@ -1,6 +1,6 @@
 {
   "name": "thank-you-tweet-button-001",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "Easy-to-use tweet button for saying thank you to @oluwatobiss.",
   "homepage": "https://github.com/codesweetly/thank-you-tweet-button-001#readme",
   "main": "./dist/cjs/TweetButton.js",

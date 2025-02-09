@@ -1,5 +1,13 @@
 # Changelog
 
+## <small>3.0.5 (2025-02-09)</small>
+
+* chore: change commitlint config file to typescript ([095aa8a](https://github.com/codesweetly/thank-you-tweet-button-001/commit/095aa8a))
+* chore: Change jest configuration file to typescript ([4b22659](https://github.com/codesweetly/thank-you-tweet-button-001/commit/4b22659))
+* chore: reconfigure project's hooks ([d0009b9](https://github.com/codesweetly/thank-you-tweet-button-001/commit/d0009b9))
+* refactor: change default export to named ([418205e](https://github.com/codesweetly/thank-you-tweet-button-001/commit/418205e))
+* build: Bump dependencies ([dd3b4d3](https://github.com/codesweetly/thank-you-tweet-button-001/commit/dd3b4d3))
+
 ## [3.0.4](https://github.com/codesweetly/thank-you-tweet-button-001/compare/v3.0.3...v3.0.4) (2023-08-31)
 
 
