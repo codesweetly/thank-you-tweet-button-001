@@ -2,13 +2,10 @@
   "name": "thank-you-tweet-button-001",
   "version": "3.0.4",
   "description": "Easy-to-use tweet button for saying thank you to @oluwatobiss.",
+  "homepage": "https://github.com/codesweetly/thank-you-tweet-button-001#readme",
   "main": "./dist/cjs/TweetButton.js",
   "module": "./dist/esm/TweetButton.js",
   "types": "./dist/esm/TweetButton.d.ts",
-  "homepage": "https://test-app-for-thank-you-tweet-button-001.vercel.app",
-  "files": [
-    "./dist"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/codesweetly/thank-you-tweet-button-001.git"
@@ -18,13 +15,16 @@
     "email": "contact@codesweetly.com"
   },
   "scripts": {
+    "release": "dotenv release-it --",
     "build": "rm -r dist && npm run build:esm && npm run build:cjs && npm run copy-files",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "copy-files": "cp ./src/index.css dist/",
-    "release": "dotenv release-it --",
-    "test": "jest --config jest.config.js"
+    "test": "jest --config jest.config.ts"
   },
+  "files": [
+    "./dist"
+  ],
   "keywords": [
     "tweet",
     "twitter",

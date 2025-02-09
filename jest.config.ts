@@ -1,9 +1,11 @@
-/** @type {import('ts-jest').JestConfigWithTsJest} */
+import type { Config } from "jest";
 
-module.exports = {
+const config: Config = {
   testEnvironment: "jsdom",
   transform: {
     "^.+\\.css$": "jest-transform-css",
     "^.+\\.tsx?$": "ts-jest",
   },
 };
+
+export default config;
