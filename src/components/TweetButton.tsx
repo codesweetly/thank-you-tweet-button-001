@@ -17,7 +17,7 @@ function generateStarIcons(rating: number) {
   return rating > 10 ? megaStars : stars;
 }
 
-export default function TweetButton(props: TweetButtonPropsType) {
+export function TweetButton(props: TweetButtonPropsType) {
   const tweetURL = `https://twitter.com/intent/tweet?text=Thank+you,+%40oluwatobiss.+Your+book+helped+me+create,+test,+and+publish+${
     props.number && props.number > 1 ? props.number : "an"
   }+NPM+${
