@@ -35,22 +35,23 @@
   "author": "Oluwatobi Sofela <contact@codesweetly.com> (https://www.codesweetly.com)",
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
-    "@release-it/conventional-changelog": "^7.0.0",
-    "@testing-library/react": "^14.0.0",
-    "@types/react": "^18.2.21",
-    "dotenv-cli": "^7.3.0",
-    "husky": "^8.0.3",
-    "jest": "^29.6.3",
-    "jest-environment-jsdom": "^29.6.3",
-    "jest-transform-css": "^6.0.1",
-    "react": "^18.2.0",
-    "release-it": "^16.1.5",
-    "ts-jest": "^29.1.1",
-    "typescript": "^5.1.6"
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@release-it/conventional-changelog": "^10.0.0",
+    "@testing-library/react": "^16.2.0",
+    "@types/react": "^19.0.8",
+    "dotenv-cli": "^8.0.0",
+    "husky": "^9.1.7",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-transform-css": "^6.0.2",
+    "react": "^19.0.0",
+    "release-it": "^18.1.2",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   },
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "^19.0.0"
   }
 }
