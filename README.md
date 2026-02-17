@@ -1,6 +1,6 @@
 > **Note**
 >
-> This package is a project in the [Creating NPM Package book](https://amzn.to/3R1M0XU).
+> This package is a project in the [Creating NPM Package book](https://amzn.to/4lifL3n).
 
 # Thank You Tweet Button 001
 
