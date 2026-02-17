@@ -30,6 +30,7 @@ jobs:
         run: |
           npm install --no-save \
             semantic-release@25 \
+            conventional-changelog-conventionalcommits@9 \
 
       - name: Run semantic-release
         env:

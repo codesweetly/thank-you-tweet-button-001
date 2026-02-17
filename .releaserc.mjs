@@ -26,6 +26,35 @@ export default {
         ],
       },
     ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        preset: "conventionalcommits",
+        presetConfig: {
+          types: [
+            { type: "feat", section: "Features" },
+            { type: "fix", section: "Bug Fixes" },
+            { type: "perf", section: "Performance" },
+            { type: "refactor", section: "Refactoring" },
+            { type: "docs", section: "Documentation" },
+            { type: "style", section: "Code Style" },
+          ],
+        },
+        writerOpts: {
+          groupBy: "type",
+          commitGroupsSort: "title",
+          commitsSort: ["scope", "subject"],
+        },
+      },
+    ],
     ["@semantic-release/npm", { npmPublish: true }],
+    [
+      "@semantic-release/github",
+      {
+        successComment: false,
+        failComment: false,
+        releasedLabels: false,
+      },
+    ],
   ],
 };
