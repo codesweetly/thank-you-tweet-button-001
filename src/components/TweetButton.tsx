@@ -1,4 +1,3 @@
-import React from "react";
 import "../index.css";
 
 interface TweetButtonPropsType {
@@ -25,7 +24,7 @@ export function TweetButton(props: TweetButtonPropsType) {
   }.%0A%0AMy+Favorite:+${props.bestNPMPackage}%0A%0ABook's+Rating:+${
     props.rating
   }-star+rating!+${generateStarIcons(
-    props.rating
+    props.rating,
   )}+%0A%0ACreating%20NPM%20Package:%20React%20TypeScript%20Guide%0A%0Ahttps%3A%2F%2Famzn.to/3R1M0XU`;
 
   return props.rating && props.bestNPMPackage ? (
