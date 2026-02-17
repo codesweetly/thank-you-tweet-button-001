@@ -33,12 +33,12 @@ export default {
         preset: "conventionalcommits",
         presetConfig: {
           types: [
-            { type: "feat", section: "Features" },
-            { type: "fix", section: "Bug Fixes" },
-            { type: "perf", section: "Performance" },
-            { type: "refactor", section: "Refactoring" },
-            { type: "docs", section: "Documentation" },
-            { type: "style", section: "Code Style" },
+            { type: "feat", section: "✨ Features" },
+            { type: "fix", section: "🐛 Bug Fixes" },
+            { type: "perf", section: "⚡ Performance" },
+            { type: "refactor", section: "♻️ Refactoring" },
+            { type: "docs", section: "📚 Documentation" },
+            { type: "style", section: "🎨 Code Style" },
           ],
         },
         writerOpts: {
