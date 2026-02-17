@@ -3,7 +3,7 @@
  */
 export default {
   branches: ["main"],
-  repositoryUrl: "https://github.com/your-username/package-repo-name",
+  repositoryUrl: "https://github.com/codesweetly/thank-you-tweet-button-001",
   plugins: [
     [
       "@semantic-release/commit-analyzer",
