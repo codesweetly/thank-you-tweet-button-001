@@ -20,6 +20,7 @@ export default {
           { type: "refactor", release: "patch" },
           { type: "docs", release: "patch" },
           { type: "style", release: "patch" },
+          { type: "build", release: false },
           { type: "test", release: false },
           { type: "chore", release: false },
           { type: "ci", release: false },
