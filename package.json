@@ -6,6 +6,13 @@
   "main": "./dist/cjs/TweetButton.js",
   "module": "./dist/esm/TweetButton.js",
   "types": "./dist/esm/TweetButton.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/TweetButton.js",
+      "import": "./dist/esm/TweetButton.js",
+      "types": "./dist/esm/TweetButton.d.ts"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/codesweetly/thank-you-tweet-button-001.git"
