@@ -3,6 +3,7 @@
   "compilerOptions": {
     "module": "commonjs",
     "moduleResolution": "node10",
-    "noEmit": true
+    "noEmit": true,
+    "isolatedModules": true
   }
 }

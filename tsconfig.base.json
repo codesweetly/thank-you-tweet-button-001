@@ -4,6 +4,7 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "target": "es2018",
+    "rewriteRelativeImportExtensions": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
