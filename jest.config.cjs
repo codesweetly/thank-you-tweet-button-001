@@ -10,4 +10,7 @@ module.exports = {
       },
     ],
   },
+  moduleNameMapper: {
+    "^(\\.{1,2}/.*)\\.(ts|js)$": "$1",
+  },
 };
