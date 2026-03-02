@@ -3,24 +3,23 @@
   "version": "0.0.0-development",
   "description": "Easy-to-use tweet button for saying thank you to @oluwatobiss.",
   "homepage": "https://github.com/codesweetly/thank-you-tweet-button-001#readme",
-  "main": "./dist/cjs/TweetButton.js",
-  "module": "./dist/esm/TweetButton.js",
-  "types": "./dist/esm/TweetButton.d.ts",
+  "main": "./dist/cjs/components/TweetButton.js",
+  "module": "./dist/esm/components/TweetButton.js",
+  "types": "./dist/esm/components/TweetButton.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/cjs/TweetButton.js",
-      "import": "./dist/esm/TweetButton.js",
-      "types": "./dist/esm/TweetButton.d.ts"
+      "require": "./dist/cjs/components/TweetButton.js",
+      "import": "./dist/esm/components/TweetButton.js",
+      "types": "./dist/esm/components/TweetButton.d.ts"
     }
   },
   "scripts": {
-    "dev": "rm -r dist && npm run build",
-    "build": "npm run build:esm && npm run build:cjs && npm run copy-files",
+    "build": "node -e \"require('fs').rmSync('dist', { recursive: true, force: true })\" && npm run build:esm && npm run build:cjs && npm run copy-files",
     "build:esm": "tsc -p tsconfig.esm.json && node -e \"require('fs').writeFileSync('dist/esm/package.json', JSON.stringify({ type: 'module' }))\"",
     "build:cjs": "tsc -p tsconfig.cjs.json && node -e \"require('fs').writeFileSync('dist/cjs/package.json', JSON.stringify({ type: 'commonjs' }))\"",
-    "copy-files": "cp ./src/index.css dist/",
+    "copy-files": "node scripts/copy-css.js",
     "test": "jest --config jest.config.cjs",
-    "prepare": "husky && npm run build"
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
